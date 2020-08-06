@@ -1,0 +1,941 @@
+body
+{
+   font-family : monospace , Andale Mono ; 
+   background-color : /*#E8EEF2*/ white ;
+   margin : 0px ;
+   padding : 0px ;
+}
+a
+{
+    color           : black ;
+    text-decoration : none ;
+}
+a:hover
+{
+    font-weight     : normal ;
+    color           : black ;
+    text-decoration : none ;
+}
+a:focus
+{
+    cursor : wait
+}
+header
+{
+    background    : linear-gradient(
+      to right, 
+      rgb(49, 99, 115 ), 
+      white 400%
+    );
+    position      : relative ; left : 0px ; top : 0px ;
+    display       :flex ;
+ /*	border-bottom : 2px solid black ; */
+    width         : 1265px ;
+    height        : 130px ;
+    width         : 100% ;
+}
+#TechNCode
+{
+    width       : 150px ;
+    height      : 129px ;
+    border-left : 1px solid rgb(48, 94, 110) ;
+}
+#home:hover
+{
+    font-size :  1.8em ; 
+    border-top : 3px solid black ;
+    background-color : #386f8a ;
+    opacity : 0.80 ;   	
+}
+header {
+    weight : 100px ; 
+}
+header > ul {
+   margin : 0px ;
+   padding : 0px ;
+   position : relative ; top : 50px ; left : 15px ;
+}
+header > ul::after{
+    content : "" ;
+    display : block ;
+    clear : both ;
+}
+header > ul li {
+    float : left ;
+    position : relative ;
+}
+header > ul > li > a {
+    padding : 20px 30px ;
+    color : rgb(43, 44, 46)  ; 
+    font-size : 1.5em ;
+}
+header li {
+    list-style-type : none ;
+}
+.submenu {
+    display : none ;
+}
+.sous-submenu
+{
+    visibility : hidden ;
+}
+header li:hover .sous-submenu {
+    visibility : visible ;
+    position : absolute ;
+    top : 100% ;
+    left : 50px ;
+    padding : 0px ;
+}
+header li:hover .submenu {
+    display : inline-block ;
+    position : absolute ;
+    top : 100% ;
+    left : 30px ;
+    padding : 0px ;
+}
+.submenu li{
+    
+    }
+.submenu li a {
+    padding : 15px 30px ;
+    font-size : 13px ;
+    color : #dfe5e8 ;
+    width : 270px ;
+}
+.menu-creations:hover {
+    font-size :  1.2em ; 
+    height : 42px ;
+    border-top : 3px solid #fa3600 ;
+    background-color : #e04b41 ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+.menu-videogames:hover {
+    font-size :  1.2em ; 
+    height : 42px ;
+    border-top : 3px solid #0f7ba6 ;
+    background-color : RGBa(000, 112, 192, 0.15) ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+.menu-account:hover {
+    font-size :  1.2em ; 
+    height : 42px ;
+    border-top : 3px solid #7eba54 ;
+    background-color : RGBa(241, 211, 79, 0.15) ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+.menu-others:hover
+{
+    font-size :  1.2em ; 
+    height : 42px ;
+    border-top : 3px solid #a8327d ;
+    background-color : RGBa(204, 67, 154, 0.90) ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+@font-face
+{
+    font-family : 'test' ;
+    src : url('SirinStencil-Regular.ttf') format('ttf')
+}
+.menu-contactus
+{
+    
+}
+.menu-contactus:hover
+{
+    font-size : 1.1em ;
+    height : 42px ;
+    border-top : 3px solid black ;
+    background-color : #a83260 ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+#creations
+{
+    font-weight : bold ;
+}
+#technbot
+{
+    color : black ;
+    font-weight : bold ;
+}
+#technbot:hover
+{
+    color : black ;
+    font-size : 0.9em ;
+    height : 42px ;
+    border-top : 3px solid #fa3600 ;
+    background-color : #e04b41 ;
+    transition : 0.2s ;
+}
+#website 
+{
+    color : black ;
+    font-weight : bold ;
+}
+#heberg-center
+{
+	color : black ;
+    font-weight : bold ;
+}
+#website:hover
+{
+    color : black ;
+    font-size : 0.9em ;
+    height : 42px ;
+    border-top : 3px solid #fa3600 ;
+    background-color : #e04b41 ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+#heberg-center:HOVER
+{
+	color : black ;
+    font-size : 0.6em ;
+    height : 42px ;
+    border-top : 3px solid #fa3600 ;
+    background-color : #e04b41 ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+#videogames
+{
+    font-weight : bold ;
+    color : black ;
+}
+#videogames:hover
+{
+    color : black ;
+    font-size : 0.9em ;
+    height : 42px ;
+    border-top : 3px solid #fa3600 ;
+    background-color : #e04b41 ;
+    opacity : 0.80 ;
+    transition : 0.2s ;;
+}
+#rodeward
+{
+    font-weight : bold ;
+    color : black ;
+}
+#rodeward:hover
+{
+    color : black ;
+    font-size : 0.9em ;
+    height : 42px ;
+    border-top : 3px solid #0f7ba6 ;
+    background-color : RGBa(000, 112, 192, 0.15) ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+#contactus
+{
+	font-weight : bold ;
+    color : black ;
+}
+#contactus:hover
+{
+	color : black ;
+    font-size : 0.9em ;
+    height : 80px ;
+    weight : 50px ;
+    border-top : 3px solid #a83d7d ;
+    background-color : RGBa(204, 67, 154, 0.90) ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+#support
+{
+	font-weight : bold ;
+    color : black ;
+}
+#support:hover
+{
+	color : black ;
+    font-size : 0.9em ;
+    height : 80px ;
+    weight : 50px ;
+    border-top : 3px solid #a83d7d ;
+    background-color : RGBa(204, 67, 154, 0.90) ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+#account
+{
+    font-weight : bold ;
+}
+#join
+{
+    font-weight : bold ;
+    color : black ;
+}
+#join:hover
+{
+    color : black ;	
+    font-size : 0.9em ;
+    height : 42px ;
+    border-top : 3px solid #7eba54 ;
+    background-color : RGBa(241, 211, 79, 0.15) ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+#signup
+{
+    font-weight : bold ;
+    color : black ;
+}
+#signup:hover
+{
+    color : black ;
+    font-size : 0.9em ;
+    height : 42px ;
+    border-top : 3px solid #7eba54 ;
+    background-color : RGBa(241, 211, 79, 0.15) ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+#search
+{
+    padding : 6px ;
+    border : 6px solid black ;
+    outline : none ;
+    width : 360px ;
+    height : 60px ;
+    padding-left : 50px ;
+    background : url("") left no-repeat ; 
+    position : absolute ; top : 36px ; left : 980px ; 
+    font-size : 1.5em ;
+    color : #ffffff ;
+}
+#img_techncode-home
+{
+    position : relative ; left : 450px ;
+}
+#text_home {
+    font-size : 3em ;
+    position : absolute ; left : 550px ; top : 600px ;
+}
+#barre-decorative {
+    font-size : 2em ;
+    position : relative ; top : 50px ; left : 0px ;  
+ }
+#section-home {
+    border : 2px solid rgb(43, 44, 46) ;
+    height : 2000px ;
+}
+#formulaire-inscription
+{
+    position : absolute ; top : 200px ; left : 250px ;
+}
+form.form-example {
+    display: table; 
+}
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+#formualire-inscription input
+{
+    border-radius: 20px ;
+    background-color : #E8EEF2 ;
+    border-color : #c4cccf ;
+    font-size : 1.5em ;
+    padding-left : 15px ;
+    outline : none ;
+}
+input 
+{
+    font-size : 1.7em ;
+}
+label {
+    padding-right: 10px;
+}
+#sorry
+{
+    position : absolute ; top : 300px ; left : 350px ;
+    font-size : 2em ;
+}
+#gohome
+{
+    text-decoration : underline ;
+}
+#gohome:hover
+{
+    background-color : #5252 ;
+    transition : 0.2s ;
+}
+#formulaire-contact 
+{
+    position : absolute ; top : 180px ; left : 470px ; 
+    display : flex ;
+    flex-direction : column ; 
+}
+#formulaire-contact input
+{
+    padding-top : 20px ;
+}
+#btn-contactus
+{
+    position : relative ; left : 0px ;
+}
+/*form input[type="submit"]
+{
+    position : relative ; top : 20px ; left : 290px ;
+    border: rgb(49, 99, 115) 2px solid;
+    background-color: white ;
+    transition : 0.3s ;
+    width: 100% ;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+form
+{
+    
+}
+form input[type="submit"]:hover
+{
+    background-color: #2d3030 ;
+    border-color : rgb(49, 99, 155) 0.5px ;
+    color : white ;
+    transition : 1s ;
+    cursor: pointer;
+}*/
+#title-join
+{
+    position : fixed ; top : 130px ; left : 550px ;
+    font-size : 1.8em ;
+}
+#title-or
+{
+    position : fixed ; top : 450px ; left : 620px ;
+    font-size : 1.8em ;
+}
+#account-facebook
+{
+    height : 75px ;
+    width : 150px ;
+    position : relative ; top : 50px ; left : 480px ;
+    transition : 0.5s ;
+}
+#account-facebook:hover
+{
+    opacity : 0.70 ;
+    transition : 0.5s ;
+}
+#account-google
+{
+    height : 75px ;
+    width : 150px ;
+    position : relative ; top : 50px ; left : 515px ;
+    transition : 0.5s ;
+}
+#account-google:hover
+{
+    opacity : 0.60 ;
+    transition : 0.5s ;
+}
+#account-github
+{
+    height : 75px ;
+    width : 150px ;
+    position : relative ; top : 50px ; left : 550px ;
+    transition : 0.5s ;
+}
+#account-github:hover
+{
+    opacity : 0.60 ;
+    transition : 0.5s ;
+}
+#account-yahoo
+{
+    height : 75px ;
+    width : 145px ;
+    position : relative ; top : 170px ; left : 2px ;
+    transition : 0.5s ;
+}
+#account-yahoo:hover
+{
+    opacity : 0.70 ;
+    transition : 0.5s ;
+}
+#account-microsoft
+{
+    height : 90px ;
+    width : 150px ;
+    position : relative ; top : 170px ; left : 54px ;
+    transition : 0.5s ;
+}
+#account-microsoft:hover
+{
+    opacity : 0.70 ;
+    transition : 0.5s ;
+}
+#account-twitter
+{
+    height : 75px ;
+    width : 180px ;
+    position : relative ; top : 170px ; left : 25px ;
+    transition : 0.5s ;
+}
+#account-twitter:hover
+{
+    opacity : 0.70 ;
+    transition : 0.5s ;
+}
+#element-1-account
+{
+    position : absolute ;  left : -100px ; top : 450px ;
+}
+#story
+{
+    height : 200px ;
+}
+#btn-contactus
+{
+    position : absolute ; top : 520px ;
+    
+}
+#techncmusic
+{
+    font-weight : bold ;
+    color : black ; 
+}
+#techncmusic:hover
+{
+    color : black ;
+    font-size : 0.9em ;
+    height : 42px ;
+    border-top : 3px solid #fa3600 ;
+    background-color : #e04b41 ;
+    opacity : 0.80 ;
+    transition : 0.2s ;
+}
+#technmusicpre
+{
+    font-size : 3.2em ;
+    color : #e3c113 ;
+    position : absolute ; left : 300px ; top : 100px ;
+}
+#logo-technmusic
+{
+    height : 150px ;
+    weight : 100px ;
+    position : relative ; left : 600px ; top : 100px ;
+}
+.SOON
+{
+    font-size : 3.5em ;
+    position : absolute ; left : 550px ; top : 250px ;
+    font-family : sans-serif, Arial ;
+}
+#rajouter-bot
+{
+    font-size : 2.5em ;
+    border : none ;
+    background-color : #e3c113 ;
+    transition : 0.4s ;
+    position : absolute ; left : 800px ; top : 275px ;
+}
+#rajouter-bot:hover
+{
+    color : black ;
+    cursor : pointer ;
+    opacity : 0.80 ;
+    transition : 0.4s ;
+}
+#technmusic-page
+{
+    border : 1px black solid ;
+    height : 1100px ;
+}
+#titre-commande
+{
+    font-size : 3em ;
+    position : absolute ; left : 20px ; top : 350px ;
+    text-decoration : underline ;
+}
+#text-commande
+{
+    font-size : 1em ;
+    font-weight : bold ;
+    position : absolute ; top : 460px ; left : 150px ;
+}
+#commande1
+{
+    color : #e3c113 ;
+    padding-bottom : 30px ;
+    font-size : 1em ;
+    position : relative ; top : 200px ;
+}
+#commande2
+{
+    color : #e3c113 ;
+    padding-bottom : 30px ;
+    font-size : 1em ;
+    position : relative ; top : 200px ; 
+}
+#commande3
+{
+    color : #e3c113 ;
+    padding-bottom : 30px ;
+    font-size : 1em ;
+    position : relative ; top : 205px ;
+}
+#commande4
+{
+    color : #e3c113 ;
+    padding-bottom : 30px ;
+    font-size : 1em ;
+    position : relative ; top : 220px ;
+}
+#commande5
+{
+    color : #e3c113 ;
+    padding-bottom : 30px ;
+    font-size : 1em ;
+    position : relative ; top : 200px ;
+}
+#commande6
+{
+    color : #e3c113 ;
+    padding-bottom : 30px ;
+    font-size : 1em ;
+    position : relative ; top : 200px ;
+}
+#commande7
+{
+    color : #e3c113 ;
+    padding-bottom : 30px ;
+    font-size : 1em ;
+    position : relative ; top : 200px ;
+}
+#commande8
+{
+    color : #e3c113 ;
+    padding-bottom : 30px ;
+    font-size : 1em ;
+    position : relative ; top : 200px ;
+}
+#commande9
+{
+    color : #e3c113 ;
+    padding-bottom : 30px ;
+    font-size : 1em ;
+    position : relative ; top : 200px ;
+}
+#commande10
+{
+    color : #e3c113 ;
+    padding-bottom : 30px ;
+    font-size : 1em ;
+    position : relative ; top : 200px ;
+}
+#discordbot
+{
+    color : black ;
+    font-weight : bold ;
+}
+*, ::before, ::after
+{
+    box-sizing : border-box ;
+    padding : 0 ;
+    margin : 0 ;
+}
+.box
+{
+    weight : 500px ;
+    height : 100% ;
+    padding : 25px ;
+    background : #fff ;
+    position : absolute ; 
+}
+.box h3
+{
+    color : #222170 ;
+}
+.formBloc h3 {
+	color : #666 ;
+	font-size : 28px ;
+	font-weight : 500 ;
+	margin-bottom : 45px ;
+}
+.formBloc .formGroupe 
+{
+	position : relative ;
+	display : flex ;
+	margin-bottom : 50px ;
+}
+.formBloc .formGroupe label
+{
+	position : absolute ;
+	top : 50% ;
+	left : 0px ;
+	transform : translateY(-50%) ;
+	color :#aaa ;
+	font-size : 20px ;
+	transition : 0.4s ease-out ;
+	padding-left : 20px ;
+}
+.formBloc .formGroupe input
+{
+	display : block ;
+	width : 100% ;
+	padding : 10px 0px ;
+	border : none ;
+	outline : none ;
+	background : none ;
+	border-bottom : 3px solid #aaa ;
+	color : #666 ;
+	font-size : 20px ;
+	transition : 0.4s ease-out ;
+}
+.formGroupe:nth-child(4)
+{
+	margin-bottom : 65px ;
+	justify-content : center ;
+}
+.formBloc .formGroupe .buttonSignIn
+{
+	display : black ;
+	width : auto ;
+	padding : 15px 60px ;
+	border : 3px solid #8b97d7 ;
+	border-radius : 999px ;
+	background-image : linear-gradient(to right, transparent 50%, #5260ad 50%, #8b97f7) ;
+	background-size : 200% ;
+	color : #8b97d7 ;
+	font-size : 24px ;
+	font-weight : 500 ; 
+	cursor : pointer ;
+}
+.formBloc .formGroupe .buttonSignIn:hover
+{
+	color : #fff ;
+	background-position : 100% ;
+	border : 3px solid #fff ;
+}
+.formBloc .mdpPerdu a 
+{
+	color : #5260ad ;
+	transition : 0.4s ease-in ;
+}
+.formBloc .mdpPerdu a:hover
+{
+	color : #666 ;
+	border-bottom : 1px solid #666 ;
+	padding-bottom : 10px ;
+	transition : 0.4s ease-out ;
+}
+.formBloc .formGroupe:focus-within label,
+.formBloc .formGroupe.animation label {
+    top: 0px;
+    transform: translateY(-100%);
+    color: #8b97d7;
+}
+
+.formBloc .formGroupe:focus-within input,
+.formBloc .formGroupe.animation input {
+    border-bottom-color: #8b97d7;
+}   
+
+#croix
+{
+	position : absolute ; top : 15px ; left : 1370px ;
+	height : 50px ;
+	weight : 50px ;
+	transition : 0.4s ;
+}
+#croix:hover
+{
+	background-color : #fff ;
+	border-radius: 50% 20% / 10% 40%;
+	transition : 0.4s ;
+}
+#logo-signin
+{
+	position : absolute ; top : 150px ; left : 600px ;
+}
+#connectsignup
+{
+	font-size : 1.1em ;
+	position : absolute ; top : 615px ; left : 25px ;
+	color : #8b97d7 ;
+	font-family : Monserrat ; 
+}
+#createonenow
+{
+	position : relative ; top : 160px ;
+}
+#connectaccount
+{
+	position : absolute ; top : 660px ; left : 25px ;	
+	font-size : 1.1em ;
+	color : #8b97d7 ;
+	font-family : Monserrat ;
+}
+label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+#email-contact-us
+{
+	height : 300px ;
+	weight : 300px ;
+	position : absolute ; top : 150px ; left : 735px ;
+}
+.twitter
+{
+	height : 70px ;
+	weight : 70px ;
+	position : absolute ; top : 470px ; left : 650px ;
+	opacity : 0.80 ;
+	transition : 0.4s ;
+}
+.twitter:hover
+{
+	transform:rotate(360deg);
+	transition : 0.7s ;
+}
+.facebook
+{
+	height : 70px ;
+	weight : 70px ;
+	position : absolute ; top : 470px ; left : 750px ;
+	opacity : 0.80 ;
+	transition : 0.4s ;
+}
+.facebook:hover
+{
+	transform:rotate(360deg);
+	transition : 0.7s ;
+}
+#title-heberg-center
+{
+	position : absolute ; top : 150px ; left : 450px ;
+	font-size : 3.5em ;
+	font-weight : bold ;
+	font-family: Courier, monospace;
+	color : /*#03b1fc*/ #333 ;
+}
+#title-heberg-center:hover
+{
+    
+}
+#title-explication-heberg-center
+{
+	font-weight : 600 ;
+	position : absolute ; top : 270px ; left : 30px ;
+	font-size : 3em ;
+	color : white ;
+}
+strong
+{
+	color : #eb4034 ;
+}
+#bts-start-hc
+{
+    position : absolute ;top : 520px ; left : 50px ;
+    display: inline-block;
+color: #333;
+text-align: center;
+font-size: 28px;
+padding: 20px;
+width: 300px;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.3s;
+cursor: pointer;
+border-radius : 999px ;
+	background-image : linear-gradient(to right, transparent 50%, black 50%, #333) ;
+	background-size : 200% ;	
+}
+#bts-start-hc:hover
+{
+	font-size : 32px ; 
+	color : #fff ; 
+	background-position : 100% ;
+	border-color : #03b1fc ;
+}
+#img-heberg-center1
+{
+	height : 200px ;
+	weight : 200px ;
+	position : absolute ; top : 350px ; left : 700px ;
+}
+#img-heberg-center2
+{
+	height : 200px ;
+	weight : 200px ;
+	position : absolute ; top : 350px ; left : 1200px ;
+}
+#img-heberg-center3
+{
+	height : 200px ;
+	weight : 200px ;
+	position : absolute ; top : 350px ; left : 950px ;
+}
+/*#bts-vp-hc
+{
+    position : absolute ;top : 520px ; left : 275px ;
+    display: inline-block;
+background-color: #c5ccd1;
+border-radius: 10px;
+border: 4px double #cccccc;
+color: #333;
+text-align: center;
+font-size: 28px;
+padding: 20px;
+width: 200px;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.3s;
+cursor: pointer;	
+}
+#bts-vp-hc:hover
+{
+	font-size : 30px ; 
+}
+#bts-discord-hc
+{
+    position : absolute ;top : 520px ; left : 500px ;
+    display: inline-block;
+background-color: #c5ccd1;
+border-radius: 10px;
+border: 4px double #cccccc;
+color: #333;
+text-align: center;
+font-size: 28px;
+padding: 20px;
+width: 200px;
+-webkit-transition: all 0.5s;
+-moz-transition: all 0.5s;
+-o-transition: all 0.5s;
+transition: all 0.3s;
+cursor: pointer;	
+}
+#bts-discord-hc:hover
+{
+	font-size : 32px ; 
+}*/

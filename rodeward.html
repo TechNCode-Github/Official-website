@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <html lang="en-GB">
+    <title>TechN'Code</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="icon" href="/favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="img/techncoe_favicon.ico" ></link>
+    <script>console.log('TechNCode - HOME')</script>
+</head>
+<body>
+   <header>
+        <div class=contenu_header>
+            <a href="index.html" title="Home" id="element_header_1">
+            <img src="img/logo_principal.png" id="TechNCode"></a>  
+        </div>             
+        <ul>
+            <li class="menu-creations"><a href="#" title="Creations" >Creations</a>
+                <ul class="submenu">
+                    <li><a href="website.html" id="website">Web Site</a></li>
+                    <li><a href="hebergcenter.html" id="heberg-center">Heberg-Center</a></li>
+                    <li class="menu-creations"><a href="#" title="Creations" id="discordbot" >Discord BOT</a>
+                <ul class="sous-submenu">
+                    <li><a href="technbot.html" id="technbot">TechN'BOT</a></li>
+                    <li><a href="technmusic.html" id="techncmusic">TechN'Chill</a></li>
+                </ul></li>
+                </ul></li>
+            <li class="menu-videogames"><a href="#" title="Video-Games">Video-Games</a>
+                <ul class="submenu">
+                    <li><a href="rodeward.html" id="rodeward">RodeWard</a></li>
+                </ul></li>
+            <li class="menu-account"><a href="#" title="Account" >Account</a>
+                <ul class="submenu">
+                    <li><a href="account.html" id="join">Join</a></li>
+                    <li><a href="signup.html" id="signup">Sign In</a></li>
+                </ul></li>
+            <!-- <li class="menu-contactus"><a href="aboutus.htm" title="Contact US" >Contact Us</a> -->
+            </li>
+            <li class="menu-others"><a href="#" title="Video-Games">Other</a>
+                <ul class="submenu">
+                    <li><a href="aboutus.htm" id="contactus">Contact</a></li>
+                    <li><a href="support.html" id="support">Support</a></li>
+                </ul></li>
+        </ul>
+        <form action="search.html" >
+            <input type="search" id="search" name="search" placeholder="What do you search ?" >
+        </form>     
+    </header>
+  
+    <body>
+        <img src="Chevalier Principal Clignotement des yeux clone(1).gif" id="gifrodeward">
+        <p class="SOON">Coming Soon</p>
+    </body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBQAJeAnSkjTrPIVYJIIcsi0-7ztSFbHeQ",
+    authDomain: "techn-code-48910.firebaseapp.com",
+    databaseURL: "https://techn-code-48910.firebaseio.com",
+    projectId: "techn-code-48910",
+    storageBucket: "techn-code-48910.appspot.com",
+    messagingSenderId: "138883315405",
+    appId: "1:138883315405:web:683f90fbb3c87e9f81db84",
+    measurementId: "G-4CXR9HCWC3"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</html>
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <html lang="en-GB">
+    <title>Account | TechN'Code</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="img/techncoe_favicon.ico" ></link>
+    <script>console.log('TechNCode - Account')</script>
+    <style type="text/css">
+        body {
+        	background-color : #333 ;
+        }
+    </style>
+</head>
+<body>
+    
+    
+
+
+<section>
+    <div class="box">
+      
+    <form action="" class="formBloc">
+    
+        <h3>Create an Account</h3>
+        
+        <div class="formGroupe">
+        
+            <label for="namePersonn" id="namePersonn">Name</label>
+            <input type="text" id="namePersonn" >
+        
+        </div>
+        <div class="formGroupe">
+        
+            <label for="namePersonn" id="nameE-Mail">E-Mail</label>
+            <input type="text" id="namePersonn" >
+        
+        </div>
+        <div class="formGroupe">
+        
+            <label for="mdp" id="nameMdp">Password</label>
+            <input type="password" id="mdp" >
+        
+        </div>
+        <div class="formGroupe">
+        
+            <label for="mdp" id="nameConfirmMdp">Confirm</label>
+            <input type="password" id="mdp" >
+        
+        </div>
+        <div class="formGroupe">
+        
+            <input type="submit" value="Create Account" class="buttonSignIn">
+        
+        </div>
+        
+        <div class="mdpPerdu">
+        
+            <a href="signup.html">Log In</a>
+        
+        </div>
+    </form>
+    
+    </div>
+    <script>
+    const inputs = document.querySelectorAll('input');
+
+        for (let i = 0; i < inputs.length; i++) {
+
+            let field = inputs[i];
+
+            field.addEventListener('input', (e) => {
+
+                if(e.target.value != ""){
+                    e.target.parentNode.classList.add('animation');
+                } else if (e.target.value == "") {
+                    e.target.parentNode.classList.remove('animation');
+                }
+
+            })
+
+        }
+    </script>
+    <img src="img/techncoe_favicon.ico"id="logo-signin">
+    <p id="connectaccount">You have account ?</p>
+</section>
+<a href="index.html"><img src="img/croix.ico" id="croix"></a>
+<footer>
+
+</footer>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBQAJeAnSkjTrPIVYJIIcsi0-7ztSFbHeQ",
+    authDomain: "techn-code-48910.firebaseapp.com",
+    databaseURL: "https://techn-code-48910.firebaseio.com",
+    projectId: "techn-code-48910",
+    storageBucket: "techn-code-48910.appspot.com",
+    messagingSenderId: "138883315405",
+    appId: "1:138883315405:web:683f90fbb3c87e9f81db84",
+    measurementId: "G-4CXR9HCWC3"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</html>

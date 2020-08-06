@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <html lang="en-GB">
+    <title>Account | TechN'Code</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="icon" href="/favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="img/techncoe_favicon.ico" ></link>
+    <script>console.log('TechNCode - HOME')</script>
+    <style type="text/css">
+        body {
+        	background-color : #333 ;
+        }
+    </style>
+</head>
+<!--<body>
+    <header>
+        <div class=contenu_header>
+            <a href="index.html" title="Home" id="element_header_1">
+            <img src="img/logo_principal.png" id="TechNCode"></a>  
+        </div>             
+        <ul>
+            <li class="menu-creations"><a href="#" title="Creations" >Creations</a>
+                <ul class="submenu">
+                    <li><a href="website.html" id="website">Web Site</a></li>
+                    <li class="menu-creations"><a href="#" title="Creations" id="discordbot" >Discord BOT</a>
+                <ul class="sous-submenu">
+                    <li><a href="technbot.html" id="technbot">TechN'BOT</a></li>
+                    <li><a href="technmusic.html" id="techncmusic">TechN'Chill</a></li>
+                </ul></li>
+                </ul></li>
+            <li class="menu-videogames"><a href="#" title="Video-Games">Video-Games</a>
+                <ul class="submenu">
+                    <li><a href="rodeward.html" id="rodeward">RodeWard</a></li>
+                </ul></li>
+            <li class="menu-account"><a href="#" title="Account" >Account</a>
+                <ul class="submenu">
+                    <li><a href="account.html" id="join">Join</a></li>
+                    <li><a href="signup.html" id="signup">Sign In</a></li>
+                </ul></li>
+             <li class="menu-contactus"><a href="aboutus.htm" title="Contact US" >Contact Us</a> 
+            </li>
+        </ul>
+        <form action="search.html" >
+            <input type="search" id="search" name="search" placeholder="What do you search ?" >
+        </form>     
+    </header> -->
+<section>
+    <!-- <div id="formulaire-inscription">
+        <form action="" method="get" class="form-example">
+  <div class="form-example">
+    <label for="email">Enter your email : </label>
+    <input type="email" name="email" id="email" >
+  </div>
+  <div class="form-example">
+    <label for="password">Enter your Password : </label>
+    <input type="password" name="password" id="password" >
+  </div>
+  <div id="createaccount">
+    <input type="submit" value="Log in" title="Log in">
+  </div>
+</form>
+
+    </div>
+</section>
+<section>
+<p id="title-join">Sign Up with : </p>
+<p id="title-or">Or : </p>
+</section>
+<section>
+<div id="element-1-account">
+    <a href=""><img src="img/facebook-cadre.jpg" id="account-facebook"></a>
+    <a href=""><img src="img/logo-google.png" id="account-google"></a>
+    <a href=""><img src="img/github-logo.ico" id="account-github"></a>
+    <a href=""><img src="img/yahoo_default_logo.png" id="account-yahoo"></a>
+    <a href=""><img src="img/twitter logo.jpg" id="account-twitter"></a>
+    <a href=""><img src="img/microsoft-logo.ico" id="account-microsoft"></a>
+</div> -->
+    <div class="box">
+      
+    <form action="" class="formBloc">
+    
+        <h3>Log In</h3>
+        
+        <div class="formGroupe">
+        
+            <label for="namePersonn" id="namePersonn">Name</label>
+            <input type="text" id="namePersonn" >
+        
+        </div>
+        <div class="formGroupe">
+        
+            <label for="mdp" id="nameMdp">Password</label>
+            <input type="password" id="mdp" >
+        
+        </div>
+        <div class="formGroupe">
+        
+            <input type="submit" value="Sign In" class="buttonSignIn">
+        
+        </div>
+        
+        <div class="mdpPerdu">
+        
+            <a href="#">Password forgotten ?</a>
+        
+        </div>
+        <div class="mdpPerdu">
+        
+            <a href="account.html" id="createonenow">Create one NOW</a>
+        
+        </div>
+    </form>
+    
+    </div>
+    <script>
+    const inputs = document.querySelectorAll('input');
+
+        for (let i = 0; i < inputs.length; i++) {
+
+            let field = inputs[i];
+
+            field.addEventListener('input', (e) => {
+
+                if(e.target.value != ""){
+                    e.target.parentNode.classList.add('animation');
+                } else if (e.target.value == "") {
+                    e.target.parentNode.classList.remove('animation');
+                }
+
+            })
+
+        }
+    </script>
+    <img src="img/techncoe_favicon.ico"id="logo-signin">
+    <p id="connectsignup">You don't have account ?</p>
+</section>
+    <a href="index.html"><img src="img/croix.ico" id="croix"></a>
+</body>
+</html>
