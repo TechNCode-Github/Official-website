@@ -29,7 +29,6 @@ header
     );
     position      : relative ; left : 0px ; top : 0px ;
     display       :flex ;
- /*	border-bottom : 2px solid black ; */
     width         : 1265px ;
     height        : 130px ;
     width         : 100% ;
@@ -302,7 +301,7 @@ header li:hover .submenu {
     padding : 6px ;
     border : 6px solid black ;
     outline : none ;
-    width : 360px ;
+    width : 380px ;
     height : 60px ;
     padding-left : 50px ;
     background : url("") left no-repeat ; 
@@ -320,7 +319,7 @@ header li:hover .submenu {
 }
 #section-home {
     border : 2px solid rgb(43, 44, 46) ;
-    height : 2000px ;
+    height : 1500px ;
 }
 #formulaire-inscription
 {
@@ -971,27 +970,56 @@ strong
 	font-family: 'Comic Sans MS', cursive;
 	font-size : 2.5em ;
 }
-#heberg-center-link.middle {
-    position: relative;
-}
-#heberg-center-link.middle:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #333;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
-}
-#heberg-center-link.middle:hover:before {
-  visibility: visible;
-  transform: scaleX(3);
+#site-presentation
+{
+	position : absolute ; left : 300px ; top : 170px ;
 }
 #chillbot
 {
 	height : 500px ;
 	position : absolute ; left : 450px ; top : 300px ;
+}
+#discover
+{
+	font-size : 3em ;
+	position : absolute ; top : 350px ; left : 100px ;
+}
+#contenu-image-site
+{
+	position : absolute ; top : 450px ; left : 100px ;
+}
+#discover-1
+{
+	position : absolute ; top : 600px ; left : 100px ;
+}
+#JoinorCreateaccount
+{
+	font-size : 3em ;
+	position : absolute ; top : 750px ; left : 100px ;
+}
+.ContactMentionslegalesConfidentialite
+{
+	background-color : #333 ;
+	color : #fff ;
+	position : relative ; top : 0px ; left : 0px ;
+	padding : 25px ;
+	text-align : center ;
+	font-size : 1.5em ;
+	font-weight : bold ; 
+}
+.frenchflag
+{
+	position : relative ; bottom : 110px ; left : 1200px ;
+	border-bottom : 2px solid #fff ;
+	padding-bottom : 10px ; 
+	height : 30px ;
+	width : 30px ;
+}
+.belgeflag
+{
+	position : relative ; bottom : 81px ; left : 1160px ;
+	/*border-bottom : 2px solid #fff ;
+	padding-bottom : 10px ; */
+	height : 17px ;
+	width : 30px ;
 }
