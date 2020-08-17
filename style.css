@@ -318,10 +318,6 @@ header li:hover .submenu {
     font-size : 3em ;
     position : absolute ; left : 550px ; top : 600px ;
 }
-#barre-decorative {
-    font-size : 2em ;
-    position : relative ; top : 50px ; left : 0px ;  
- }
 #section-home {
     border : 2px solid rgb(43, 44, 46) ;
     height : 2000px ;
@@ -532,7 +528,7 @@ form input[type="submit"]:hover
 .SOON
 {
     font-size : 3.5em ;
-    position : absolute ; left : 550px ; top : 250px ;
+    position : absolute ; left : 500px ; top : 200px ;
     font-family : sans-serif, Arial ;
 }
 #rajouter-bot
@@ -829,113 +825,173 @@ label {
 	transform:rotate(360deg);
 	transition : 0.7s ;
 }
-#title-heberg-center
+#hc-background
 {
-	position : absolute ; top : 150px ; left : 450px ;
+	background-color : white ;
+}
+#img-server
+{
+	width: 100%;
+	height: auto;
+}
+#title-hc-2
+{
 	font-size : 3.5em ;
-	font-weight : bold ;
-	font-family: Courier, monospace;
-	color : /*#03b1fc*/ #333 ;
+	color : #fff ;
+	position : absolute ; bottom : 330px ; left : 225px ;
+	font-family: 'Bookman Old Style', serif;
+	text-shadow: 3.5px 5px 2px #333, 0 0 1em black ;
+	transition : 0.5s ;
 }
-#title-heberg-center:hover
+#title-hc-1
 {
-    
+	font-size : 4.5em ;
+	color : #fff ;
+	position : absolute ; bottom : 450px ; left : 450px ;
+	font-family: 'Bookman Old Style', serif;
+	text-shadow: 3.5px 5px 2px #333, 0 0 1em black ;
+	transition : 0.5s ;
 }
-#title-explication-heberg-center
+#title-hc-1:hover
 {
-	font-weight : 600 ;
-	position : absolute ; top : 270px ; left : 30px ;
-	font-size : 3em ;
-	color : white ;
+	transform : translateY(-50px) ;
+	transition : 0.8s ;
+}
+#title-hc-2:hover
+{
+	transform : translateY(-50px) ;
+	transition : 0.8s ;
+}
+#title-hc-3
+{
+	font-size : 4em ;
+	text-shadow : 2px 3px 4px #333 ;
+	position : absolute ; left : 75px ; top : 750px ;
+	background-color : #c9d0d1 ;
+	padding : 25px ;
+	transition : 0.4s ;
+}
+#title-hc-3:hover
+{
+	padding : 45px ;
+	transition : 0.4s ;
+}
+#prix
+{
+	color : #ad953d ;
 }
 strong
 {
-	color : #eb4034 ;
+	font-weight : 700px ;
 }
-#bts-start-hc
+#buttonHc
 {
-    position : absolute ;top : 520px ; left : 50px ;
-    display: inline-block;
-color: #333;
-text-align: center;
-font-size: 28px;
-padding: 20px;
-width: 300px;
--webkit-transition: all 0.5s;
--moz-transition: all 0.5s;
--o-transition: all 0.5s;
-transition: all 0.3s;
-cursor: pointer;
-border-radius : 999px ;
-	background-image : linear-gradient(to right, transparent 50%, black 50%, #333) ;
-	background-size : 200% ;	
+	border-radius : 999px ;
+	color : #fff ;
+	font-size : 2em ;
+	position : absolute ; left : 850px ; top : 950px ;
+	padding : 30px ;
+	background-color : #333 ;
+	transition : 1s ;
 }
-#bts-start-hc:hover
+#buttonHc:hover
 {
-	font-size : 32px ; 
-	color : #fff ; 
-	background-position : 100% ;
-	border-color : #03b1fc ;
+	border : 2px solid #333 ;
+	color : #333 ;
+	background-color : #fff ;
+	transition : 1s ;
 }
-#img-heberg-center1
+#discord-home
 {
-	height : 200px ;
-	weight : 200px ;
-	position : absolute ; top : 350px ; left : 700px ;
+	position : fixed ; top : 250px ; left : 1200px ;
+	height : 50px ;
 }
-#img-heberg-center2
+#discord-home-1
 {
-	height : 200px ;
-	weight : 200px ;
-	position : absolute ; top : 350px ; left : 1200px ;
+	visibility : hidden ;
+	position : fixed ; top : 250px ; left : 1270px ;
 }
-#img-heberg-center3
+#instagram-home
 {
-	height : 200px ;
-	weight : 200px ;
-	position : absolute ; top : 350px ; left : 950px ;
+	position : fixed ; top : 310px ; left : 1200px ;
+	height : 50px ;
 }
-/*#bts-vp-hc
+#instagram-home-1
 {
-    position : absolute ;top : 520px ; left : 275px ;
-    display: inline-block;
-background-color: #c5ccd1;
-border-radius: 10px;
-border: 4px double #cccccc;
-color: #333;
-text-align: center;
-font-size: 28px;
-padding: 20px;
-width: 200px;
--webkit-transition: all 0.5s;
--moz-transition: all 0.5s;
--o-transition: all 0.5s;
-transition: all 0.3s;
-cursor: pointer;	
+	visibility : hidden ;*
+	position : fixed ; top : 310px ; left : 1270px ;
 }
-#bts-vp-hc:hover
+#twitter-home
 {
-	font-size : 30px ; 
+	position : fixed ; top : 370px ; left : 1200px ;
+	height : 50px ;
 }
-#bts-discord-hc
+#twitter-home-1
 {
-    position : absolute ;top : 520px ; left : 500px ;
-    display: inline-block;
-background-color: #c5ccd1;
-border-radius: 10px;
-border: 4px double #cccccc;
-color: #333;
-text-align: center;
-font-size: 28px;
-padding: 20px;
-width: 200px;
--webkit-transition: all 0.5s;
--moz-transition: all 0.5s;
--o-transition: all 0.5s;
-transition: all 0.3s;
-cursor: pointer;	
+	visibility : hidden ;
+	position : fixed ; top : 370px ; left : 1270px ;
 }
-#bts-discord-hc:hover
+#facebook-home
 {
-	font-size : 32px ; 
-}*/
+	position : fixed ; top : 430px ; left : 1200px ;
+	height : 50px ;
+}
+#facebook-home-1
+{
+	visibility : hidden ;
+	position : fixed ; top : 430px ; left : 1270px ;
+}
+#image-hc-1
+{
+	position : absolute ; top : 1170px ; left : 20px ;
+}
+#image-hc-2
+{
+	position : absolute ; top : 1228px ; left : 700px ;
+}
+#image-hc-3
+{
+	position : absolute ; top : 1870px ; left : 300px ;
+}
+#title-1
+{
+	position : absolute ; top : 1650px ; left : 100px ;
+	font-family: 'Comic Sans MS', cursive;
+	font-size : 2.5em ;
+}
+#title-2
+{
+	position : absolute ; top : 1650px ; left : 750px ;
+	font-family: 'Comic Sans MS', cursive;
+	font-size : 2.5em ;
+}
+#title-3
+{
+	position : absolute ; top : 2400px ; left : 300px ;
+	font-family: 'Comic Sans MS', cursive;
+	font-size : 2.5em ;
+}
+#heberg-center-link.middle {
+    position: relative;
+}
+#heberg-center-link.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #333;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+#heberg-center-link.middle:hover:before {
+  visibility: visible;
+  transform: scaleX(3);
+}
+#chillbot
+{
+	height : 500px ;
+	position : absolute ; left : 450px ; top : 300px ;
+}
