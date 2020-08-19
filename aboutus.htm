@@ -9,43 +9,6 @@
     <script>console.log('TechNCode - HOME')</script>
 </head>
 <body>
-   <header>
-        <div class=contenu_header>
-            <a href="index.html" title="Home" id="element_header_1">
-            <img src="img/logo_principal.png" id="TechNCode"></a>  
-        </div>             
-        <ul>
-            <li class="menu-creations"><a href="#" title="Creations" >Creations</a>
-                <ul class="submenu">
-                    <li><a href="website.html" id="website">Web Site</a></li>
-                    <li><a href="hebergcenter.html" id="heberg-center">Heberg-Center</a></li>
-                    <li class="menu-creations"><a href="#" title="Creations" id="discordbot" >Discord BOT</a>
-                <ul class="sous-submenu">
-                    <li><a href="technbot.html" id="technbot">TechN'BOT</a></li>
-                    <li><a href="technmusic.html" id="techncmusic">TechN'Chill</a></li>
-                </ul></li>
-                </ul></li>
-            <li class="menu-videogames"><a href="#" title="Video-Games">Video-Games</a>
-                <ul class="submenu">
-                    <li><a href="rodeward.html" id="rodeward">RodeWard</a></li>
-                </ul></li>
-            <li class="menu-account"><a href="#" title="Account" >Account</a>
-                <ul class="submenu">
-                    <li><a href="account.html" id="join">Join</a></li>
-                    <li><a href="signup.html" id="signup">Sign In</a></li>
-                </ul></li>
-            <!-- <li class="menu-contactus"><a href="aboutus.htm" title="Contact US" >Contact Us</a> -->
-            </li>
-            <li class="menu-others"><a href="#" title="Video-Games">Other</a>
-                <ul class="submenu">
-                    <li><a href="aboutus.htm" id="contactus">Contact</a></li>
-                    <li><a href="support.html" id="support">Support</a></li>
-                </ul></li>
-        </ul>
-        <form action="search.html" >
-            <input type="search" id="search" name="search" placeholder="What are you looking for" >
-        </form>     
-    </header>
 <nav>
 <section id="test">
 <?php
@@ -69,19 +32,19 @@ mail($destinataire, $subject, $message, $user_name, $user_mail, $headers);
         <div class="formGroupe">
         
             <label for="user_name">Name</label>
-            <input type="text" id="user_name" required>
+            <input type="text" id="user_name" name="user_name" required>
         
         </div>
         <div class="formGroupe">
         
             <label for="user_mail">E-Mail</label>
-            <input type="text" id="user_mail" required>
+            <input type="text" id="user_mail" name="user-mail" required>
         
         </div>
         <div class="formGroupe">
         
             <label for="sujet">Subject</label>
-            <input type="text" id="sujet" required>
+            <input type="text" id="sujet" name="sujet" required>
         
         </div>
         <div class="formGroupe">
@@ -108,11 +71,14 @@ mail($destinataire, $subject, $message, $user_name, $user_mail, $headers);
     <img src="img/email-contact-us.ico" id="email-contact-us">
     <div class="follow">
     
-        <a href="https://twitter.com/TechN_Code"><img src="img/twitter.ico" class="twitter" title="Twitter"></a>
-        <a href="https://www.facebook.com/TechNCode-102910458170736"><img src="img/facebook.ico" class="facebook" title="Facebook"></a>
+        <a href="https://twitter.com/TechN_Code" target="_blank"><img src="img/twitter.ico" class="twitter" title="Twitter"></a>
+        <a href="https://www.facebook.com/TechNCode-102910458170736" target="_blank"><img src="img/facebook.ico" class="facebook" title="Facebook"></a>
+        <a href="https://www.facebook.com/TechNCode-102910458170736" target="_blank"><img src="img/instagram_black.ico" class="instagram" title="Instagram"></a>
+        <a href="https://www.facebook.com/TechNCode-102910458170736" target="_blank"><img src="img/discord_black.ico" class="discord" title="Discord"></a>
     
     </div>
 </section>
+<a href="index.html"><img src="img/croix.ico" class="croix"></a>
  </body>
 <footer>
 

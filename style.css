@@ -740,7 +740,7 @@ form input[type="submit"]:hover
     border-bottom-color: #8b97d7;
 }   
 
-#croix
+.croix
 {
 	position : absolute ; top : 15px ; left : 1370px ;
 	height : 50px ;
@@ -802,7 +802,7 @@ label {
 {
 	height : 70px ;
 	weight : 70px ;
-	position : absolute ; top : 470px ; left : 650px ;
+	position : absolute ; top : 470px ; left : 700px ;
 	opacity : 0.80 ;
 	transition : 0.4s ;
 }
@@ -815,11 +815,37 @@ label {
 {
 	height : 70px ;
 	weight : 70px ;
-	position : absolute ; top : 470px ; left : 750px ;
+	position : absolute ; top : 470px ; left : 800px ;
 	opacity : 0.80 ;
 	transition : 0.4s ;
 }
 .facebook:hover
+{
+	transform:rotate(360deg);
+	transition : 0.7s ;
+}
+.instagram
+{
+	height : 70px ;
+	weight : 70px ;
+	position : absolute ; top : 470px ; left : 900px ;
+	opacity : 0.80 ;
+	transition : 0.4s ;
+}
+.instagram:hover
+{
+	transform:rotate(360deg);
+	transition : 0.7s ;
+}
+.discord
+{
+	height : 70px ;
+	weight : 70px ;
+	position : absolute ; top : 470px ; left : 1000px ;
+	opacity : 0.80 ;
+	transition : 0.4s ;
+}
+.discord:hover
 {
 	transform:rotate(360deg);
 	transition : 0.7s ;
@@ -975,6 +1001,11 @@ strong
 	position : absolute ; left : 1100px ; top : 170px ;
 }
 #chillbot
+{
+	height : 500px ;
+	position : absolute ; left : 450px ; top : 300px ;
+}
+#technbot1
 {
 	height : 500px ;
 	position : absolute ; left : 450px ; top : 300px ;
