@@ -972,7 +972,7 @@ strong
 }
 #site-presentation
 {
-	position : absolute ; left : 300px ; top : 170px ;
+	position : absolute ; left : 1100px ; top : 170px ;
 }
 #chillbot
 {
@@ -1055,4 +1055,20 @@ strong
 {
 	position : absolute ; top : 1400px ; left : 100px ;
 	font-size : 2.5em ;
+}
+#search-website-2
+{
+	position : absolute ; top : 1700px ; left : 100px ;
+}
+#levelUP
+{
+	position : absolute ; top : 1800px ; left : 100px ;
+	font-size : 2.5em ;
+	color : #1579 ; 
+}
+#follow-website
+{
+	position : absolute ; top : 1900px ; left : 100px ;
+	font-size : 2em ;
+	color : #1579 ; 
 }
