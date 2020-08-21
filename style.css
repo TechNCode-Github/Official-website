@@ -1103,3 +1103,13 @@ strong
 	font-size : 2em ;
 	color : #1579 ; 
 }
+#support-image-1
+{
+	position : absolute ; top : 300px ; left : 450px ;
+}
+#support-page
+{
+	font-size : 2.5em ;
+	color : #37a68a ;
+	position : absolute ; top : 200px ; left : 100px ;
+}
