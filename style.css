@@ -136,7 +136,7 @@ header li:hover .submenu {
 }
 @font-face
 {
-    font-family : 'test' ;
+    font-family : 'tesxtesx' ;
     src : url('SirinStencil-Regular.ttf') format('ttf')
 }
 .menu-contactus
@@ -925,6 +925,19 @@ strong
 {
 	position : fixed ; top : 250px ; left : 1200px ;
 	height : 50px ;
+	transition : 0.6s ;
+}
+#discord-home:hover
+{
+	padding-right : 100px ;
+	background-color : white ;
+	border-radius : 999px ;
+	transition : 0.6s ;
+}
+#discord-home:hover discord-home-1
+{
+	visibility : visible ; 
+	color : black ;
 }
 #discord-home-1
 {
@@ -938,7 +951,7 @@ strong
 }
 #instagram-home-1
 {
-	visibility : hidden ;*
+	visibility : hidden ;
 	position : fixed ; top : 310px ; left : 1270px ;
 }
 #twitter-home
