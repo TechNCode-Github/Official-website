@@ -155,15 +155,16 @@ header li:hover .submenu {
 #creations
 {
     font-weight : bold ;
+    color : #fff ;
 }
 #technbot
 {
-    color : black ;
+    color : #fff ;
     font-weight : bold ;
 }
 #technbot:hover
 {
-    color : black ;
+    color : #fff ;
     font-size : 1.2em ;
     height : 45px ;
     border-top : 3px solid #fa3600 ;
@@ -172,17 +173,17 @@ header li:hover .submenu {
 }
 #website 
 {
-    color : black ;
+    color : #fff ;
     font-weight : bold ;
 }
 #heberg-center
 {
-	color : black ;
+	color : #fff ;
     font-weight : bold ;
 }
 #website:hover
 {
-    color : black ;
+    color : #fff ;
     font-size : 1.2em ;
     height : 45px ;
     border-top : 3px solid #fa3600 ;
@@ -191,7 +192,7 @@ header li:hover .submenu {
 }
 #heberg-center:hover
 {
-	color : black ;
+	color : #fff ;
     font-size : 1.2em ;
     height : 45px ;
     border-top : 3px solid #fa3600 ;
@@ -201,11 +202,11 @@ header li:hover .submenu {
 #videogames
 {
     font-weight : bold ;
-    color : black ;
+    color : #fff ;
 }
 #videogames:hover
 {
-    color : black ;
+    color : #fff ;
     font-size : 1.2em ;
     height : 45px ;
     border-top : 3px solid #fa3600 ;
@@ -215,11 +216,11 @@ header li:hover .submenu {
 #rodeward
 {
     font-weight : bold ;
-    color : black ;
+    color : #fff ;
 }
 #rodeward:hover
 {
-    color : black ;
+    color : #fff ;
     font-size : 1.2em ;
     height : 45px ;
     border-top : 3px solid #0f7ba6 ;
@@ -229,11 +230,11 @@ header li:hover .submenu {
 #contactus
 {
 	font-weight : bold ;
-    color : black ;
+    color : #fff ;
 }
 #contactus:hover
 {
-	color : black ;
+	color : #fff ;
     font-size : 1.2em ;
     height : 80px ;
     weight : 50px ;
@@ -245,11 +246,11 @@ header li:hover .submenu {
 #support
 {
 	font-weight : bold ;
-    color : black ;
+    color : #fff ;
 }
 #support:hover
 {
-	color : black ;
+	color : #fff ;
     font-size : 1.2em ;
     height : 80px ;
     weight : 50px ;
@@ -261,15 +262,16 @@ header li:hover .submenu {
 #account
 {
     font-weight : bold ;
+    color : #fff ;
 }
 #join
 {
     font-weight : bold ;
-    color : black ;
+    color : #fff ;
 }
 #join:hover
 {
-    color : black ;	
+    color : #fff ;	
     font-size : 1.2em ;
     height : 45px ;
     border-top : 3px solid #7eba54 ;
@@ -280,11 +282,11 @@ header li:hover .submenu {
 #signup
 {
     font-weight : bold ;
-    color : black ;
+    color : #fff ;
 }
 #signup:hover
 {
-    color : black ;
+    color : #fff ;
     font-size : 1em ;
     height : 45px ;
     border-top : 3px solid #7eba54 ;
@@ -310,7 +312,7 @@ header li:hover .submenu {
     font-family : sans-serif ;
     color : /*#bbc2c9*/ #fff ;
     font-weight : bold ;
-    position : absolute ; left : 125px ; top : 190px ;
+    position : absolute ; left : 225px ; top : 250px ;
 }
 #section-home {
     border : 2px solid rgb(43, 44, 46) ;
@@ -495,12 +497,12 @@ form input[type="submit"]:hover
 #techncmusic
 {
     font-weight : bold ;
-    color : black ; 
+    color : #fff ;
 }
 #techncmusic:hover
 {
     color : black ;
-    font-size : 0.9em ;
+    font-size : 0.5em ;
     height : 42px ;
     border-top : 3px solid #fa3600 ;
     background-color : #e04b41 ;
@@ -627,7 +629,7 @@ form input[type="submit"]:hover
 }
 #discordbot
 {
-    color : black ;
+    color : #fff ;techncmusic
     font-weight : bold ;
 }
 *, ::before, ::after
@@ -1149,9 +1151,7 @@ strong
 	background-color : #333 ;
 	transition : 0.1s ;
 }
-#test-1
+#test
 {
-	position : absolute ;
-	height : 800px ;
 	width : 1420px ;
 }
