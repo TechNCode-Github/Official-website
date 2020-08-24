@@ -501,7 +501,7 @@ form input[type="submit"]:hover
 }
 #techncmusic:hover
 {
-    color : black ;
+    color : #fff ;
     font-size : 0.5em ;
     height : 42px ;
     border-top : 3px solid #fa3600 ;
@@ -1025,7 +1025,7 @@ strong
 }
 .ContactMentionslegalesConfidentialite
 {
-	background-color : #333 ;
+	background-color : rgb(49, 99, 115) ;
 	color : #fff ;
 	position : relative ; top : 0px ; left : 0px ;
 	padding : 25px ;
