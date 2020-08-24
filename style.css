@@ -164,8 +164,8 @@ header li:hover .submenu {
 #technbot:hover
 {
     color : black ;
-    font-size : 0.9em ;
-    height : 42px ;
+    font-size : 1.2em ;
+    height : 45px ;
     border-top : 3px solid #fa3600 ;
     background-color : #e04b41 ;
     transition : 0.2s ;
@@ -183,21 +183,19 @@ header li:hover .submenu {
 #website:hover
 {
     color : black ;
-    font-size : 0.9em ;
-    height : 42px ;
+    font-size : 1.2em ;
+    height : 45px ;
     border-top : 3px solid #fa3600 ;
     background-color : #e04b41 ;
-    opacity : 0.80 ;
     transition : 0.2s ;
 }
-#heberg-center:HOVER
+#heberg-center:hover
 {
 	color : black ;
-    font-size : 0.6em ;
-    height : 42px ;
+    font-size : 1.2em ;
+    height : 45px ;
     border-top : 3px solid #fa3600 ;
     background-color : #e04b41 ;
-    opacity : 0.80 ;
     transition : 0.2s ;
 }
 #videogames
@@ -208,12 +206,11 @@ header li:hover .submenu {
 #videogames:hover
 {
     color : black ;
-    font-size : 0.9em ;
-    height : 42px ;
+    font-size : 1.2em ;
+    height : 45px ;
     border-top : 3px solid #fa3600 ;
     background-color : #e04b41 ;
-    opacity : 0.80 ;
-    transition : 0.2s ;;
+    transition : 0.2s ;
 }
 #rodeward
 {
@@ -223,11 +220,10 @@ header li:hover .submenu {
 #rodeward:hover
 {
     color : black ;
-    font-size : 0.9em ;
-    height : 42px ;
+    font-size : 1.2em ;
+    height : 45px ;
     border-top : 3px solid #0f7ba6 ;
     background-color : RGBa(000, 112, 192, 0.15) ;
-    opacity : 0.80 ;
     transition : 0.2s ;
 }
 #contactus
@@ -238,7 +234,7 @@ header li:hover .submenu {
 #contactus:hover
 {
 	color : black ;
-    font-size : 0.9em ;
+    font-size : 1.2em ;
     height : 80px ;
     weight : 50px ;
     border-top : 3px solid #a83d7d ;
@@ -254,7 +250,7 @@ header li:hover .submenu {
 #support:hover
 {
 	color : black ;
-    font-size : 0.9em ;
+    font-size : 1.2em ;
     height : 80px ;
     weight : 50px ;
     border-top : 3px solid #a83d7d ;
@@ -274,8 +270,8 @@ header li:hover .submenu {
 #join:hover
 {
     color : black ;	
-    font-size : 0.9em ;
-    height : 42px ;
+    font-size : 1.2em ;
+    height : 45px ;
     border-top : 3px solid #7eba54 ;
     background-color : RGBa(241, 211, 79, 0.15) ;
     opacity : 0.80 ;
@@ -289,8 +285,8 @@ header li:hover .submenu {
 #signup:hover
 {
     color : black ;
-    font-size : 0.9em ;
-    height : 42px ;
+    font-size : 1em ;
+    height : 45px ;
     border-top : 3px solid #7eba54 ;
     background-color : RGBa(241, 211, 79, 0.15) ;
     opacity : 0.80 ;
@@ -309,13 +305,12 @@ header li:hover .submenu {
     font-size : 1.5em ;
     color : #ffffff ;
 }
-#img_techncode-home
-{
-    position : relative ; left : 450px ;
-}
 #text_home {
-    font-size : 3em ;
-    position : absolute ; left : 550px ; top : 600px ;
+    font-size : 3.5em ;
+    font-family : sans-serif ;
+    color : /*#bbc2c9*/ #fff ;
+    font-weight : bold ;
+    position : absolute ; left : 125px ; top : 190px ;
 }
 #section-home {
     border : 2px solid rgb(43, 44, 46) ;
@@ -509,7 +504,6 @@ form input[type="submit"]:hover
     height : 42px ;
     border-top : 3px solid #fa3600 ;
     background-color : #e04b41 ;
-    opacity : 0.80 ;
     transition : 0.2s ;
 }
 #technmusicpre
@@ -1154,4 +1148,10 @@ strong
 	border : 4px solid white ;
 	background-color : #333 ;
 	transition : 0.1s ;
+}
+#test-1
+{
+	position : absolute ;
+	height : 800px ;
+	width : 1420px ;
 }
