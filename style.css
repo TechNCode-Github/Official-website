@@ -1,7 +1,7 @@
 body
 {
    font-family : monospace , Andale Mono ; 
-   background-color : /*#E8EEF2*/ white ;
+   background-color : /*#E8EEF2*/ #333 ;
    margin : 0px ;
    padding : 0px ;
 }
@@ -309,10 +309,22 @@ header li:hover .submenu {
 }
 #text_home {
     font-size : 3.5em ;
-    font-family : sans-serif ;
+    font-family : "Sirin Stencil - 400", serif ;
     color : /*#bbc2c9*/ #fff ;
     font-weight : bold ;
     position : absolute ; left : 225px ; top : 250px ;
+}
+#text_home::selection
+{
+	color : rgb(49, 99, 115) ;
+	background-color : #333 ;
+	outline: thick double #32a1ce;
+}
+@font-face {
+ font-family: "Sirin Stencil - 400";
+ src: url("fonts/SirinStencilRegular.eot") format("eot"),
+        url("fonts/SirinStencilRegular.otf") format("otf");
+          url("fonts/SirinStencilRegular.ttf") format("truetype");
 }
 #section-home {
     border : 2px solid rgb(43, 44, 46) ;
@@ -523,6 +535,8 @@ form input[type="submit"]:hover
 .SOON
 {
     font-size : 3.5em ;
+    color : white ;
+    font-weight : bold ;
     position : absolute ; left : 500px ; top : 200px ;
     font-family : sans-serif, Arial ;
 }
@@ -1038,7 +1052,15 @@ strong
 #technbot1
 {
 	height : 500px ;
+	border-radius : 999px ;
 	position : absolute ; left : 450px ; top : 300px ;
+	transition : 1s ;
+}
+#technbot1:hover
+{
+	height : 500px ;
+	border-radius : 20px 20px ;
+	transition : 1s ;
 }
 #discover
 {
@@ -1058,11 +1080,41 @@ strong
 	font-size : 3em ;
 	position : absolute ; top : 750px ; left : 100px ;
 }
-.ContactMentionslegalesConfidentialite
+#ContactMentionslegalesConfidentialite
 {
 	background-color : rgb(49, 99, 115) ;
 	color : #fff ;
 	position : relative ; top : 0px ; left : 0px ;
+	padding : 25px ;
+	text-align : center ;
+	font-size : 1.5em ;
+	font-weight : bold ; 
+}
+#ContactMentionslegalesConfidentialite1
+{
+	background-color : rgb(49, 99, 115) ;
+	color : #fff ;
+	position : relative ; top : 700px ; left : 0px ;
+	padding : 25px ;
+	text-align : center ;
+	font-size : 1.5em ;
+	font-weight : bold ; 
+}
+#ContactMentionslegalesConfidentialite2
+{
+	background-color : rgb(49, 99, 115) ;
+	color : #fff ;
+	position : relative ; top : 1900px ; left : 0px ;
+	padding : 25px ;
+	text-align : center ;
+	font-size : 1.5em ;
+	font-weight : bold ; 
+}
+#ContactMentionslegalesConfidentialite3
+{
+	background-color : rgb(49, 99, 115) ;
+	color : #fff ;
+	position : relative ; top : 1500px ; left : 0px ;
 	padding : 25px ;
 	text-align : center ;
 	font-size : 1.5em ;
@@ -1090,14 +1142,14 @@ strong
 }
 #join-website-1
 {
-	position : absolute ; top : 1000px ; left : 100px ;
+	position : absolute ; top : 1025px ; left : 100px ;
 }
 #createaccountwebsite
 {
-	position : absolute ; top : 1250px ; left : 180px ;
+	position : absolute ; top : 1275px ; left : 180px ;
 	font-size : 2.5em ;
-	color : #fff ;
-	background-color : #333 ;
+	color : black ;
+	background-color : #fff ;
 	border-radius : 20px 20px ; ;
 	padding : 15px ;
 	transition : 0.4s ;
@@ -1189,4 +1241,9 @@ strong
 #test
 {
 	width : 100% ;
+}
+#test::selection
+{
+	background-color : #333 ;
+	opacity : 0.50 ;
 }
