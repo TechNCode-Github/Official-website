@@ -309,22 +309,22 @@ header li:hover .submenu {
 }
 #text_home {
     font-size : 3.5em ;
-    font-family : "Sirin Stencil - 400", serif ;
+    font-family : "helvetica neue", serif ;
     color : /*#bbc2c9*/ #fff ;
     font-weight : bold ;
     position : absolute ; left : 225px ; top : 250px ;
 }
 #text_home::selection
 {
-	color : rgb(49, 99, 115) ;
-	background-color : #333 ;
-	outline: thick double #32a1ce;
+    color : rgb(49, 99, 115) ;
+    background-color : #333 ;
+    outline: thick double #32a1ce;
 }
 @font-face {
- font-family: "Sirin Stencil - 400";
- src: url("fonts/SirinStencilRegular.eot") format("eot"),
-        url("fonts/SirinStencilRegular.otf") format("otf");
-          url("fonts/SirinStencilRegular.ttf") format("truetype");
+ font-family: 'Sirin Stencil - 400';
+ src: url('/fonts/SirinStencilRegular.eot'),
+        url('/fonts/SirinStencilRegular.otf') format('otf'),
+          url('/fonts/SirinStencilRegular.ttf') format('truetype');
 }
 #section-home {
     border : 2px solid rgb(43, 44, 46) ;
@@ -943,8 +943,8 @@ strong
 }
 #discord-home:hover
 {
-	padding-right : 110px ;
-	background-color : #333 ;
+	padding-right : 30px ;
+	background-color : #fff ;
 	border-radius : 999px ;
 	transition : 0.6s ;
 }
@@ -961,8 +961,8 @@ strong
 }
 #instagram-home:hover
 {
-	padding-right : 110px ;
-	background-color : #333 ;
+	padding-right : 30px ;
+	background-color : #fff ;
 	border-radius : 999px ;
 	transition : 0.6s ;
 }
@@ -981,8 +981,8 @@ strong
 }
 #twitter-home:hover
 {
-	padding-right : 110px ;
-	background-color : #333 ;
+	padding-right : 30px ;
+	background-color : #fff ;
 	border-radius : 999px ;
 	transition : 0.6s ;
 }
@@ -999,8 +999,8 @@ strong
 }
 #facebook-home:hover
 {
-	padding-right : 110px ;
-	background-color : #333 ;
+	padding-right : 30px ;
+	background-color : #fff ;
 	border-radius : 999px ;
 	transition : 0.6s ;
 }
@@ -1238,12 +1238,27 @@ strong
 	background-color : #333 ;
 	transition : 0.1s ;
 }
-#test
+#image-home
 {
 	width : 100% ;
 }
-#test::selection
+#image-home::selection
 {
 	background-color : #333 ;
 	opacity : 0.50 ;
+}
+#platinum-home-1
+{
+	position : absolute ; top : 958px ; left : 25px ;
+	border-right : 2px solid #adaaa0 ;
+	height : 200px ;
+	width : 200px ;
+}
+#rodeward-home-1
+{
+	position : absolute ; top : 958px ; left : 240px ;
+	border-right : 2px solid #adaaa0 ;
+	padding-right : 10px ;
+	height : 200px ;
+	width : 200px ;
 }
