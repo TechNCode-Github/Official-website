@@ -34,8 +34,6 @@ header
     );
     position      : relative ; left : 0px ; top : 0px ;
     display       :flex ;
-    width         : 1265px ;
-    height        : 130px ;
     width         : 100% ;
 }
 #TechNCode

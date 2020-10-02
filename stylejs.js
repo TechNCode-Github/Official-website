@@ -1,3 +1,6 @@
-if (search == "rodeward") {
-  document.writeln(<a href="rodeward.html">)
-}
+        document.addEventListener('keyup', () => {
+  if(event.keyCode === 27) {
+    location.assign('index.html');
+  }
+});
+    
