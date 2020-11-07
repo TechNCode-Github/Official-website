@@ -6,9 +6,12 @@
     <title>TechN'Code</title>
     <meta name="twitter:title" content="TechN'Code">
     <link rel="stylesheet" href="style.css"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="icon" href="/favicon.ico" /><link rel="shortcut icon" type="image/x-icon" href="img/techncoe_favicon.ico" ></link>
     <script>console.log('TechNCode - HOME')</script>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap" rel="stylesheet">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+</style> -->
     <style type="text/css">
         body {
         	background-color : #333 ;
@@ -17,124 +20,94 @@
 </head>
 <body>
     <header>
-        <div class=contenu_header>
-            <a href="index.html" title="Home" id="element_header_1">
-            <img src="img/logo_principal.png" id="TechNCode"></a>  
-    </div> 
-    <!--<label for="toggle">&#9776;</label>-->            
-        <ul>
-            <li class="menu-creations"><a href="#" title="Creations" >Creations</a>
-                <ul class="submenu">
-                    <!--<li><a href="website.html" id="website">Web Site</a></li>-->
-                    <!--<li><a href="hebergcenter.html" id="heberg-center">Heberg-Center</a></li>-->
-                    <!--<li class="menu-creations"><a href="#" title="Creations" id="discordbot" >Discord BOT</a>-->
-                <ul class="sous-submenu">
-                    <li><a href="technbot.html" id="technbot">TechN'BOT</a></li>
-                    <li><a href="technmusic.html" id="techncmusic">Chill-BOT</a></li>
-                </ul></li>
-                </ul></li>
-            <li class="menu-videogames"><a href="#" title="Video-Games">Video-Games</a>
-                <ul class="submenu">
-                    <li><a href="rodeward.html" id="rodeward">RodeWard</a></li>
-                </ul></li>
-            <li class="menu-account"><a href="#" title="Account" >Account</a>
-                <ul class="submenu">
-                    <li><a href="account.html" id="join">Join</a></li>
-                    <li><a href="signup.html" id="signup">Sign In</a></li>
-                </ul></li>
-            <!-- <li class="menu-contactus"><a href="aboutus.htm" title="Contact US" >Contact Us</a> -->
-            </li>
-            <li class="menu-others"><a href="#" title="Other">Other</a>
-                <ul class="submenu">
-                    <li><a href="aboutus.htm" id="contactus">Contact</a></li>
-                    <li><a href="support.html" id="support">Support</a></li>
-                </ul></li>
-        </ul>
-    </div>
-        
-    </header>
-    <form action="search.html">
-        <input type="search" id="search" name="search" placeholder="What are you looking for ?" >
-    </form> 
-    <section id="section-home">
-        <img src="img/test.jpeg" id="image-home">
-        <h1 id="TNC-title">TechN'Code,<br/>the new video-games<br/> and web development TEAM ! </h1>
-        <h4 id="designed">Designed by @WEPry_3986</h4>
-    </section>
-    <!--<div class="cadre">
-        <h1 id="title-tnc">
-            Our Partners
-        </h1>
-        <div class="centre">
-
-            <div class="carousel">
-
-
-             
-
-                <div class="changeHidden">
-
-                    <div class="contenant">
-
-                        <div class="element">FunAroun Games</div>
-                        <div class="element">CoalStudio</div>
-                        <div class="element">Mada-Heberg</div>
-                        <div class="element">Le Laboratoire Rust</div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
+        <nav>
+            <!--<div class="symbole">
+                <img src="img/logo_principal.png" id="logo-principal-header"/>
+            </div>-->
+            <div class="nav">
+        <label for="toggle"><img src="img/menu_lines_Hamburger_-512.png" id="hamburger-icon-button"/></label>
+        <input type="checkbox" id="toggle"/>
+        <div class="menu">
+            <a href="#" id="video-games">Video-Games</a>
+            <a href="#" id="bots">Bots</a>
+            <a href="#" id="account">Account</a>
+            <a href="#"><span>Contact Us</span></a>
         </div>
-
-
-    </div> -->
-    <section id="reseaux-home">
-        <a href="https://discord.gg/TNaMfqY" target="_black" title="Discord"><img src="img/discord.ico" id="discord-home"></a>
-        
-        <a href="https://www.instagram.com/techncode.company/" target="_black" title="Instagram"><img src="img/1491580635-yumminkysocialmedia26_83102.ico" id="instagram-home"></a>
-        
-        <a href="https://twitter.com/TechN_Code" target="_black" title="Twitter"><img src="img/1491579542-yumminkysocialmedia22_83078.ico" id="twitter-home"></a>
-        
-        <a href="https://www.facebook.com/TechNCode-102910458170736" target="_black" title="Facebook"><img src="img/facebook_icon-icons.com_59205.ico" id="facebook-home"></a>
-        
+    </div>
+        </nav>
+    
+    </header>
+    <section id="section-home">
+        <h1 id="TNC-title">TechN'Code,<br/>the new video-games<br/> and web development TEAM ! </h1>
     </section>
-    </section>
-        <h1 id="rodeward-home-1"></h1> 
-    </section>
-    <footer>
-        <p id="ContactMentionslegalesConfidentialite">TechN'Code<br /><br />© TechN'Code. 2020 - 2021 All Rights Reserved.</p> 
-        <h2 id="nous-contacter">Contact Us</h2>
-        <a href="https://mail.google.com/mail/u/1/#inbox?compose=new" target="_blank" id="email-tnc">techncode.ds@gmail.com</a>
-        <h2 id="language">Language</h2>
-        <a href="index.html" id="english">English</a>
-    </footer>
-    <script href="app.js"></script>
+    <div class="text">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+        Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. 
+        Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.
+        Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
+        Maecenas adipiscing ante non diam sodales hendrerit.
+        Ut velit mauris, egestas sed, gravida nec, ornare ut, mi.
+        Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. 
+        Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. 
+        Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. 
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien.
+        Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.
+        Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus.
+        Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo.
+        Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. 
+        Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet.
+    </p>
+    
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+        Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. 
+        Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.
+        Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
+        Maecenas adipiscing ante non diam sodales hendrerit.
+        Ut velit mauris, egestas sed, gravida nec, ornare ut, mi.
+        Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. 
+        Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. 
+        Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. 
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien.
+        Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.
+        Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus.
+        Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo.
+        Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. 
+        Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet.
+    </p>
+    
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+        Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi.
+        Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. 
+        Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.
+        Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales.
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum.
+        Maecenas adipiscing ante non diam sodales hendrerit.
+        Ut velit mauris, egestas sed, gravida nec, ornare ut, mi.
+        Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. 
+        Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. 
+        Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. 
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien.
+        Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.
+        Aliquam convallis sollicitudin purus. Praesent aliquam, enim at fermentum mollis, ligula massa adipiscing nisl, ac euismod nibh nisl eu lectus.
+        Fusce vulputate sem at sapien. Vivamus leo. Aliquam euismod libero eu enim. Nulla nec felis sed leo placerat imperdiet. Aenean suscipit nulla in justo.
+        Suspendisse cursus rutrum augue. Nulla tincidunt tincidunt mi. 
+        Curabitur iaculis, lorem vel rhoncus faucibus, felis magna fermentum augue, et ultricies lacus lorem varius purus. Curabitur eu amet.
+    </p>
+    
+    </div>
+    <!--<script>
+       $(document).ready(function(){
+       	   $(".hamburg").on("click", function(){
+       	   	   $("nav ul").toggleClass("menu");
+       	   });
+       });
+    </script>-->
 </body>
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyBQAJeAnSkjTrPIVYJIIcsi0-7ztSFbHeQ",
-    authDomain: "techn-code-48910.firebaseapp.com",
-    databaseURL: "https://techn-code-48910.firebaseio.com",
-    projectId: "techn-code-48910",
-    storageBucket: "techn-code-48910.appspot.com",
-    messagingSenderId: "138883315405",
-    appId: "1:138883315405:web:683f90fbb3c87e9f81db84",
-    measurementId: "G-4CXR9HCWC3"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
-</html>
+</html>	
