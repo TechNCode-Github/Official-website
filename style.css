@@ -11,6 +11,15 @@ body
         url("/fonts/SirinStencilRegular.otf") format("otf");
           url("/fonts/SirinStencilRegular.ttf") format("ttf");
 }
+.symbole
+{
+    position : absolute ;
+	margin : 20px 65px ;
+	color : #fff ;
+	font-size : 26px ;
+	font-weight : bold ;
+	text-decoration : none ;
+}
 header
 {
 	width : 100% ;
@@ -42,6 +51,10 @@ header
     margin: 0 10px;
     line-height: 70px;
 }
+.cool-link
+{
+    
+}
 span {
     color: #DE3163;
 }
@@ -72,7 +85,7 @@ label {
 }
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
     label {
         display: block;
         cursor: pointer;
