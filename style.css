@@ -11,12 +11,6 @@ body
         url("/fonts/SirinStencilRegular.otf") format("otf");
           url("/fonts/SirinStencilRegular.ttf") format("ttf");
 }
-#img-home-1
-{
-	width : 100% ;
-	height : 600px ;
-	position : absolute ; top : 68px ;
-}
 .symbole
 {
     position : absolute ;
@@ -25,8 +19,9 @@ body
 	height : 70px ; 
 	width : 80px ;
 }
-header
+#header-1
 {
+    background : url(img/test.jpeg);
 	width : 100% ;
 	height : 650px ;
 	background-size : cover ;
@@ -39,15 +34,63 @@ header
 	line-height : 30px ;
 	text-align : justify ;
 	width : 85% ;
+	transition : 0.4s ;
+}
+#hay:hover
+{
+	color : #b9264e ;
+	transition: 0.4s ;
+}
+#ot
+{
+	margin : 10vh auto ;
+	color : #fff ;
+	font-size : 60px ;
+	line-height : 30px ;
+	text-align : justify ;
+	transition : 0.4s ;
+}
+#ot:hover
+{
+	color : #b9264e ;
+	transition: 0.4s ;
 }
 .text
 {
     margin : 4vh auto ;
 	color : #fff ;
-	font-size : 20px ;
-	line-height : 30px ;
+	font-weight : bold ;
+	font-size : 30px ;
+	line-height : 40px ;
 	text-align : justify ;
 	width : 85% ;
+}
+.lien-mb
+{
+    text-decoration : underline ;
+    color : #657ab6 ;
+}
+.lien-mb:hover
+{
+    text-decoration : none ;
+    color : #657ab6 ;
+}
+#img-logo-wepry
+{
+	border-radius : 999px ;
+	height : 150px ;
+	width : 150px ;
+	transition : 0.4s ;
+}
+#img-logo-wepry:hover
+{
+	border: solid 8px #FC5185;
+	transition : 0.4s ;
+}
+#wepry
+{
+	color : #be8c4d ;
+	position : absolute ; left : 130px ; top : 1300px ;
 }
 .nav {
     text-align: center;
