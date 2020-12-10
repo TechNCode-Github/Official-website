@@ -90,7 +90,37 @@ body
 #wepry
 {
 	color : #be8c4d ;
+	margin : 0.5vh auto ;
+	font-size : 35px ;
+	line-height : 30px ;
+	text-align : justify ;
+	width : 85% ;
+	transition : 0.4s ;
 	position : absolute ; left : 130px ; top : 1300px ;
+}
+#DefinietlyNot4Tea
+{
+	color : #be8c4d ;
+	margin : 0.5vh auto ;
+	font-size : 35px ;
+	line-height : 30px ;
+	text-align : center ;
+	width : 85% ;
+	transition : 0.4s ;
+	position : absolute ; left : -200px ; top : 1300px ;
+}
+#img-logo-definietlynot4tea
+{
+	border-radius : 999px ;
+	position : absolute ; left : 330px ;
+	height : 150px ;
+	width : 150px ;
+	transition : 0.4s ;
+}
+#img-logo-definietlynot4tea:hover
+{
+	border: solid 8px #FC5185;
+	transition : 0.4s ;
 }
 .nav {
     text-align: center;
@@ -107,12 +137,19 @@ body
     margin: 0 10px;
     line-height: 70px;
 }
-.cool-link
+.cool-link:hover
 {
-    
+    transition : 0.35s ;
+    opacity : 0.60 ;
 }
 span {
     color: #DE3163;
+    transition : 0.5s ;
+}
+span:hover
+{
+	transition : 0.35s ; 
+    color : #850c2f ;
 }
 
 label {
