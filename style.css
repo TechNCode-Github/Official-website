@@ -4,6 +4,7 @@ body
    background-color : /*#E8EEF2*/ #333 ;
    margin : 0px ;
    padding : 0px ;
+   text-align : justify ;
 }
 @font-face {
  font-family: "test";
@@ -31,7 +32,7 @@ body
 	margin : 10vh auto ;
 	color : #fff ;
 	font-size : 60px ;
-	line-height : 30px ;
+	line-height : 45px ;
 	text-align : justify ;
 	width : 85% ;
 	transition : 0.4s ;
@@ -96,7 +97,7 @@ body
 	text-align : justify ;
 	width : 85% ;
 	transition : 0.4s ;
-	position : absolute ; left : 130px ; top : 1300px ;
+	position : absolute ; left : 130px ; top : 1310px ;
 }
 #DefinietlyNot4Tea
 {
@@ -107,7 +108,7 @@ body
 	text-align : center ;
 	width : 85% ;
 	transition : 0.4s ;
-	position : absolute ; left : -200px ; top : 1300px ;
+	position : absolute ; left : -200px ; top : 1310px ;
 }
 #img-logo-definietlynot4tea
 {
@@ -121,6 +122,54 @@ body
 {
 	border: solid 8px #FC5185;
 	transition : 0.4s ;
+}
+#img-logo-tired-io
+{
+	border-radius : 999px ;
+	position : absolute ; left : 550px ; bottom : -530px ;
+	height : 150px ;
+	width : 150px ;
+	transition : 0.4s ;
+}
+#img-logo-tired-io:hover
+{
+	border: solid 8px #FC5185;
+	transition : 0.4s ;
+}
+#tired-io
+{
+	color : #be8c4d ;
+	margin : 0.5vh auto ;
+	font-size : 35px ;
+	line-height : 30px ;
+	text-align : center ;
+	width : 85% ;
+	transition : 0.4s ;
+	position : absolute ; left : 25px ; top : 1310px ;
+}
+#img-logo-Anton_Konopatiy
+{
+	border-radius : 999px ;
+	position : absolute ; left : 770px ; bottom : -530px ;
+	height : 150px ;
+	width : 150px ;
+	transition : 0.4s ;
+}
+#img-logo-Anton_Konopatiy:hover
+{
+	border: solid 8px #FC5185;
+	transition : 0.4s ;
+}
+#anton_konopatiy
+{
+	color : #be8c4d ;
+	margin : 0.5vh auto ;
+	font-size : 35px ;
+	line-height : 30px ;
+	text-align : center ;
+	width : 85% ;
+	transition : 0.4s ;
+	position : relative ; left : 135px ; top : 0px ;
 }
 .nav {
     text-align: center;
@@ -1369,11 +1418,21 @@ strong
 }
 #TNC-title
 {
-    color: white;
+    /*color: white;
     position : absolute ; bottom : 450px ; left : 150px ;
     font-family: 'Lato';
     font-size: 3.5em;
 	animation : apparition 0.7s ease-out ;
+	*/
+	margin : 10vh auto ;
+	color : #fff ;
+	font-size : 60px ;
+	line-height : 55px ;
+	text-align : justify ;
+	position : absolute ; bottom : 350px ; left : 125px ;
+	width : 85% ;
+	animation : apparition 0.7s ease-out ;
+	transition : 0.4s ;
 }
 #benji
 {
