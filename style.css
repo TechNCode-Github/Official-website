@@ -10,7 +10,6 @@ body
  font-family: "test";
  src: url("/fonts/SirinStencilRegular.eot") format("eot"),
         url("/fonts/SirinStencilRegular.otf") format("otf");
-          url("/fonts/SirinStencilRegular.ttf") format("ttf");
 }
 .symbole
 {
@@ -24,7 +23,7 @@ body
 {
     background : url(img/test.jpeg);
 	width : 100% ;
-	height : 650px ;
+	height : 725px ;
 	background-size : cover ;
 }
 #hay
@@ -248,12 +247,13 @@ label {
     } 
     #TNC-title
     {
-    	display : none ;
-    }  
+		display : none ;
+	}  
+	
     
 }
 
-#############################################################################################################################################################################################################################################################################################################################################
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 *{
@@ -270,7 +270,7 @@ body{
 }
 
 .wrapper{
-/*background: url('https://i.imgur.com/kk76J5I.jpg') no-repeat top center;*/
+  background-color: #5260ad;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -476,11 +476,116 @@ body{
 }
 .SOON
 {
-    font-size : 3.5em ;
+    font-size : 4em ;
     color : white ;
-    font-weight : bold ;
-    position : absolute ; left : 500px ; top : 200px ;
-    font-family : sans-serif, Arial ;
+	font-weight : bold ;
+	animation: apparition 0.7s ease-out ;
+    position : absolute ; left : 300px ; top : 100px ;
+    font-family: 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+#rodeward
+{
+	font-weight: 300;
+	font-family: fantasy;
+	position :relative; top : 1500px ;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 100px;
+	color: #545d91;
+}
+#apag
+{
+	background-color: #c9d0d1;
+	text-align: center;
+	font-weight: 300;
+	font-family: fantasy;
+	position: absolute; top : 85px; left : 100px ;
+	font-size: 35px;
+	color: #000000;
+	padding: 75px;
+	margin: 325px;
+	margin-left: 50px;
+	margin-right: 350px;
+	margin-top: 150px;
+}
+#devlog-title
+{
+	text-align: center ;
+	animation: apparition 0.7s ease-out ;
+	text-decoration: underline;
+	position :relative; top : 38px ;
+	font-size: 5em;
+	color: #657ab6;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#sub-title-devlog
+{
+	text-align: center ;
+	animation: apparition 0.7s ease-out ;
+	position :relative; top : 38px ;
+	font-size: 1.4em;
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#youtube-video-devlogs
+{
+	color: white;
+	transition: 0.4s;
+}
+#youtube-video-devlogs:hover
+{
+	color: rgb(189, 15, 15);
+	text-decoration: none;
+	transition: 0.4s;
+}
+#title-first-devlog
+{
+	color : rgb(0, 0, 0) ;
+	margin-left: 300px;
+	margin-top: 150px;
+	background-color:whitesmoke;
+	border-radius: 8px;
+	position: absolute; top : 150px ;
+
+}
+#title-first-devlog-1
+{
+	color : rgb(0, 0, 0) ;
+	margin-left: 300px;
+	margin-top: 750px;
+	background-color:whitesmoke;
+	border-radius: 8px;
+	position: absolute; top : 150px ;
+}
+#date-first-devlog
+{
+	color: rgb(57, 64, 160);
+	margin-left: 650px ;
+	margin-bottom: -30px;
+	text-decoration: underline;
+}
+#link-unity
+{
+	color: black;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	transition: 0.4s;
+}
+#link-unity:hover
+{
+	color: rgb(87, 87, 87);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-decoration: none;
+	transition: 0.4s;
+}
+#sub-title-padding
+{
+	margin-left: 40px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.unity-devlog-site-img
+{
+	height: 500px;
+	width : 900px;
 }
 #rajouter-bot
 {
@@ -1319,7 +1424,7 @@ strong
 	background-color : #c9d0d1 ;
 	padding : 25px ;
 	font-family : 
-	transition : 0.4s ;
+	transition  0.4s ;
 }
 #title-chillbot-1:hover
 {
@@ -1525,6 +1630,33 @@ strong
 
 
 
+@media only screen and (max-width: 1600px){
+    #img-logo-Anton_Konopatiy
+	{
+		position: absolute; top: 1145px;
+	}
+	#img-logo-tired-io
+	{
+		position: absolute; top: 1145px;
+		}
+	#wepry
+	{
+		position: absolute; top: 1350px; left : 135px ;
+	}
+	#DefinietlyNot4Tea
+	{
+		position: absolute; top: 1310px; left : -280px ;
+	}
+	#tired-io
+	{
+		position: absolute; top: 1310px; left : -45px ;
+	}
+	#anton_konopatiy
+	{
+		position: relative; top: 0; left : 55px ;
+	}
+
+}
 
 @media only screen and (max-width: 1400px) {
 
@@ -1571,6 +1703,187 @@ strong
 	
 
 }
+@media only screen and (max-width: 1280px) {
+	
+	#img-logo-Anton_Konopatiy
+	{
+		position: absolute; top: 1175px;
+	}
+	#img-logo-tired-io
+	{
+		position: absolute; top: 1175px;
+	}
+	#wepry
+	{
+		position: absolute; top: 1330px; left : 110px ;
+	}
+	#DefinietlyNot4Tea
+	{
+		position: absolute; top: 1330px; left : -130px ;
+	}
+	#tired-io
+	{
+        position: absolute; top: 1330px; left : 85px ;
+	}
+	#anton_konopatiy
+	{
+		position: relative; top: 0; left : 215px ;
+	}
+	
+
+}
+@media only screen and (max-width: 1152px){
+    #img-logo-Anton_Konopatiy
+	{
+		position: absolute; top: 1130px;
+	}
+	#img-logo-tired-io
+	{
+		position: absolute; top: 1127.5px;
+	}
+	#wepry
+	{
+		position: absolute; top: 1300px; left : 100px ;
+	}
+	#DefinietlyNot4Tea
+	{
+		position: absolute; top: 1290px; left : -80px ;
+	}
+	#tired-io
+	{
+		position: absolute; top: 1295px; left : 140px ;
+	}
+	#anton_konopatiy
+	{
+		position: relative; top: 0; left : 280px ;
+	}
+
+}
+@media only screen and (max-width: 800px)
+{
+	#title-first-devlog
+	{
+		padding: 0px;
+		margin: 0px;
+		margin-top: 150px;
+	}
+	#unity-devlog-site-img1
+	{
+		height: 475px;
+	    width : 775px;
+	}
+}
+@media only all and (max-width : 1360px)
+{
+	#title-first-devlog
+	{
+		position: absolute; top : 150px ; right: 265px;
+	}
+	#title-first-devlog-1
+	{
+		position: absolute; top : 150px ; right: 265px;
+	}
+}
+
+@media only all and (max-width : 1250px)
+{
+	#devlog-title
+	{
+		padding-top: 5px;
+	}
+}
+@media only all and (max-width : 1210px)
+{
+	/*#title-first-devlog
+	{
+	    width : 75% ;
+	}
+	#title-first-devlog-1
+	{
+	    width : 75% ;
+	}*/
+	.unity-devlog-site-img
+	{
+		width: 100%;
+	}
+	#title-first-devlog
+	{
+		width: 65%;		
+	}
+	#title-first-devlog-1
+	{
+		width: 65%;
+	}
+	#unity-devlog-site-img
+	{
+		height : 500px ;
+	}
+}
+@media only all and (max-width : 1150px)
+{
+	/*#title-first-devlog
+	{
+	    width : 75% ;
+	}
+	#title-first-devlog-1
+	{
+	    width : 75% ;
+	}
+	.unity-devlog-site-img
+	{
+		width: 100%;
+	}*/
+	#title-first-devlog
+	{
+		width: 75%;
+		margin-top: 150px ;		
+	}
+	#title-first-devlog-1
+	{
+		width: 75%;
+	}
+	#unity-devlog-site-img
+	{
+		height : 100% ;
+	}
+	#date-first-devlog
+	{
+		margin-left: 610px ;
+		margin-top: 10px;
+	}
+	#title-first-devlog-1
+	{
+		margin-top: 800px;
+		padding-left: 0px;
+	}
+	#toggle:checked
+	{
+		
+	}
+}
+
+
+@media only all and (max-width : 1234px)
+{
+	#title-first-devlog
+	{
+		position: absolute; top : 150px ; right: 175px;
+	}
+	#title-first-devlog-1
+	{
+		position: absolute; top : 150px ; right: 175px;
+	}
+}
+@media only all and (max-width : 1150px)
+{
+	#devlog-title
+	{
+		padding-top: 40px;
+	}
+}
+
+
+
 
 @media only screen and (max-width: 1220px)
 {
